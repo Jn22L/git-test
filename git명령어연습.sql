@@ -1,4 +1,4 @@
-
+﻿
 ## 기본
 ```
 echo "# git-test" >> README.md
@@ -68,3 +68,5 @@ git branch --no-merged
 git branch -d branch1  #로컬 브랜치 삭제
 git push origin --delete branch1  #원격 브랜치 삭제
 ```
+
+브랜치에서 추가함.
