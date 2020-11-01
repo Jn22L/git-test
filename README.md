@@ -17,9 +17,9 @@ git branch branch1
 ```
 ### 브랜치 현황보기
 ```
-git branch    #로컬 브랜치 목록
-git branch -r #원격 브랜치 목록
-git branch -a #로컬+원격 브랜치목록
+git branch    # 로컬 브랜치 목록
+git branch -r # 원격 브랜치 목록
+git branch -a # 로컬+원격 브랜치목록
 ```
 ### 브랜치 체크아웃(브랜치 변경)
 ```
@@ -65,6 +65,6 @@ git branch --no-merged
 
 ### branch 삭제
 ```
-git branch -d branch1  #로컬 브랜치 삭제
-git push origin --delete branch1  #원격 브랜치 삭제
+git branch -d branch1  # 로컬 브랜치 삭제
+git push origin --delete branch1  # 원격 브랜치 삭제
 ```
