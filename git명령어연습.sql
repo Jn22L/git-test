@@ -16,5 +16,4 @@ git chechkout 브랜치명
 # 브랜치생성 + 체크아웃
 git chechkout -b 브랜치명
 
-
-git remote add origin https://github.com/Jn22L/git-test.git
+브랜치1에서 수정함!!!!!
