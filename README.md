@@ -1,5 +1,5 @@
 
-## 기본
+## 기본( main 브랜치만 사용시 )
 ```
 echo "# git-test" >> README.md
 git init
@@ -9,26 +9,28 @@ git branch -M main
 git remote add origin https://github.com/Jn22L/git-test.git
 git push -u origin main
 ```
-## 브랜치 사용시 ( 브랜치명 : branch1 이라고 할때 )
+## 브랜치 사용시 ( main + 브랜치 추가하여 사용시 - 브랜치명 : branch1 이라고 할때 )
 
-### 브랜치생성
+### 브랜치 생성
 ```
 git branch branch1  
 ```
+
+### 브랜치 체크아웃(=브랜치 변경) 
+```
+git chechkout branch1
+```
+
+### 브랜치생성 + 체크아웃 동시에 
+```
+git chechkout -b branch1
+```
+
 ### 브랜치 현황보기
 ```
 git branch    # 로컬 브랜치 목록
 git branch -r # 원격 브랜치 목록
 git branch -a # 로컬+원격 브랜치목록
-```
-### 브랜치 체크아웃(브랜치 변경)
-```
-git chechkout branch1
-```
-
-### 브랜치생성 + 체크아웃
-```
-git chechkout -b branch1
 ```
 
 ### 브랜치 add , commit 은 동일
